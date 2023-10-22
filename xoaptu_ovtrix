@@ -1,0 +1,47 @@
+#include <stdio.h> // thao tac include cac thu vien chua ham input output & cu phap
+#include <stdlib.h>	// lam viec voi cac ham bo nho, random...
+#include <string.h> //lam viec voi cac ham ve chuoi ky tu strlen
+#include <math.h>	//lam viec voi cac ham toan sin, cos, abs...pow,
+#include <ctype.h>	//lam viec voi cac ham ky tu
+void deleteElement(int arr[], int *size, int position) {
+	int i;
+	if (position < 0 || position >= *size) {
+		printf("Invalid position for deletion.\n");
+		return;
+	}
+	for (i = position; i < *size - 1; i++) {
+		arr[i] = arr[i + 1];
+	}
+	(*size)--;
+}
+
+int main() {
+	int n,i;
+
+	printf("Enter the number of elements in the array: ");
+	scanf("%d", &n);
+
+	int arr[n];
+	printf("Enter the elements of the array:\n");
+	for (i = 0; i < n; i++) {
+		printf("Enter element %d: ", i + 1);
+		scanf("%d", &arr[i]);
+	}
+	printf("Original array: ");
+	for (i = 0; i < n; i++) {
+		printf("%d ", arr[i]);
+	}
+	printf("\n");
+
+	int position;
+	printf("Enter the position to delete the element: ");
+	scanf("%d", &position);
+
+	deleteElement(arr, &n, position);
+	printf("Array after deletion: ");
+	for (i = 0; i < n; i++) {
+		printf("%d ", arr[i]);
+	}
+	printf("\n");
+	return 0;
+}
