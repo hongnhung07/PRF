@@ -68,7 +68,7 @@ int n, a[1000];
   // Fixed Do not edit anything here.
   printf("\nOUTPUT:\n");
   //@STUDENT: WRITE YOUR OUTPUT HERE:
-  SortOddAcs(a,n); 
+  Sort5Last(a,n); 
   //--FIXED PART - DO NOT EDIT ANY THINGS HERE
   printf("\n");
   system ("pause"); // dung man hinh
