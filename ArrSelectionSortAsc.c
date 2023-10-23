@@ -23,7 +23,7 @@ void SelectionSortAsc( int a[], int n){
 	}
 }
 int main() {
-  system("cls");   // lenh cls trong dos xoa man hinh
+  
   //INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
   // Fixed Do not edit anything here.
   int a[100],n; scanf("%d", &n);
@@ -31,7 +31,7 @@ int main() {
   printf("\nOUTPUT:\n");
   //@STUDENT: WRITE YOUR OUTPUT HERE:
 HienMangR(a,n);
-printf("\After Selection sort:\n");
+printf("\n After Selection sort:\n");
 SelectionSortAsc(a,n);
 HienMangR(a,n);
   //--FIXED PART - DO NOT EDIT ANY THINGS HERE
