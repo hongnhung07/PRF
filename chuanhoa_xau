@@ -3,6 +3,7 @@
 #include <string.h> //lam viec voi cac ham ve chuoi ky tu strlen
 #include <math.h>	//lam viec voi cac ham toan sin, cos, abs...pow,
 #include <ctype.h>	//lam viec voi cac ham ky tu
+
 void RemoveSpaceHead(char s[]){
 	int i=0;
 	while(s[i]==' ')
