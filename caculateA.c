@@ -6,7 +6,6 @@
 // tinh bieu thuc A= -1.x/1!+(-1)^2.x^-2/2!....
 
 int main() {
-  system("cls");   // lenh cls trong dos xoa man hinh
   //INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
   int n,i,gti=1; double x,A=0;
   scanf("%lf%d",  &x, &n);

@@ -11,7 +11,6 @@ int checkPower(int n){// ktra xem n co la power hay kh
  return 0; //chay het for ma chua return thi se tra ve 0
 }
 int main() {
-  system("cls");   // lenh cls trong dos xoa man hinh
   //INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
 int n; 
 scanf("%d", &n); // gia su n nhap >0
