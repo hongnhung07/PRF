@@ -32,7 +32,7 @@ void SortCol(double a[][50], int r, int c){
 }
 
 int main() {
-  system("cls");   // lenh cls trong dos xoa man hinh
+  // system("cls");   // lenh cls trong dos xoa man hinh
   //INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
  double a[20][50]; int r,c;
   scanf("%d%d", &r, &c);

@@ -29,7 +29,7 @@ for(i=1; i<=x; i++)
  }}
 
 int main() {
-  system("cls");   // lenh cls trong dos xoa man hinh
+  
   //INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
  int a[50][50],r, c;
  scanf("%d%d", &r,&c);
